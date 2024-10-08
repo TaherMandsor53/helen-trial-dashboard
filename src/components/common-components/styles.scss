@@ -1,0 +1,32 @@
+// donut component style
+.donut {
+  position: absolute;
+  width: 50%;
+  height: 45%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  z-index: 99;
+}
+
+.inner-content {
+  h3 {
+    font-size: 14px;
+    margin: 0;
+    font-family: 'Magnolia-Script';
+  }
+  button {
+    background-color: #2a3b54;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 45px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 60px;
+    height: 30px;
+  }
+}

@@ -1,0 +1,195 @@
+.circle-container {
+  position: relative;
+  width: 541.68px;
+  height: 548.18px;
+  border-radius: 50%;
+
+  .center-content {
+    position: absolute;
+    top: 50%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    background-color: white;
+
+    .center-img {
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+    }
+  }
+}
+
+.donut {
+  cursor: pointer;
+  &.donut-part-1 {
+    transform: rotate(0deg);
+    background-image: url('../../public/images/myCourses.svg');
+    background-size: cover;
+    width: 236.5px;
+    height: 147.5px;
+    left: -4%;
+    .text1 {
+      font-family: 'Magnolia-Script';
+      font-weight: 400;
+    }
+    .text2 {
+      font-family: 'Montserrat-Regular';
+      font-weight: 700;
+    }
+  }
+
+  &.donut-part-1:hover {
+    width: 245px;
+    height: 152px;
+    left: -5%;
+    color: rgba(39, 76, 105, 1);
+  }
+
+  &.donut-part-2 {
+    transform: rotate(0deg);
+    background-image: url('../../public/images/usefulResource.svg');
+    background-size: cover;
+    width: 195.5px;
+    height: 207.5px;
+    left: 31%;
+    top: 30px;
+
+    .text1 {
+      font-family: 'Magnolia-Script';
+      font-weight: 400;
+    }
+    .text2 {
+      font-family: 'Montserrat-Regular';
+      font-weight: 700;
+    }
+  }
+
+  &.donut-part-2:hover {
+    width: 200px;
+    height: 212px;
+    left: 30%;
+    color: rgba(39, 76, 105, 1);
+  }
+
+  &.donut-part-3 {
+    transform: rotate(-0deg);
+    background-image: url('../../public/images/coaching.svg');
+    background-size: cover;
+    width: 158.18px;
+    height: 224.5px;
+    left: 40%;
+    top: 39%;
+    .text1 {
+      font-family: 'Magnolia-Script';
+      font-weight: 400;
+    }
+    .text2 {
+      font-family: 'Montserrat-Regular';
+      font-weight: 700;
+    }
+  }
+
+  &.donut-part-3:hover {
+    width: 163px;
+    height: 229px;
+    left: 40%;
+    color: rgba(39, 76, 105, 1);
+  }
+
+  &.donut-part-4 {
+    transform: rotate(0deg);
+    background-image: url('../../public/images/challenge.svg');
+    background-size: cover;
+    width: 205.5px;
+    height: 180.18px;
+    left: 19.5%;
+    top: 66%;
+    h3 {
+      font-family: 'Montserrat-Regular';
+      font-weight: 700;
+    }
+  }
+
+  &.donut-part-4:hover {
+    width: 210px;
+    height: 185px;
+    left: 19.5%;
+    color: rgba(39, 76, 105, 1);
+  }
+
+  &.donut-part-5 {
+    transform: rotate(0deg);
+    background-image: url('../../public/images/support.svg');
+    background-size: cover;
+    width: 206px;
+    height: 180.04px;
+    left: -20%;
+    top: 66%;
+    h3 {
+      font-family: 'Montserrat-Regular';
+      font-weight: 700;
+    }
+  }
+
+  &.donut-part-5:hover {
+    width: 211px;
+    height: 185px;
+    left: -20%;
+    color: rgba(39, 76, 105, 1);
+  }
+
+  &.donut-part-6 {
+    transform: rotate(0deg);
+    background-image: url('../../public/images/upcomingWorkshops.svg');
+    background-size: cover;
+    width: 159.72px;
+    height: 223.5px;
+    left: -32%;
+    top: 39%;
+
+    .text1 {
+      font-family: 'Magnolia-Script';
+      font-weight: 400;
+    }
+    .text2 {
+      font-family: 'Montserrat-Regular';
+      font-weight: 700;
+    }
+  }
+
+  &.donut-part-6:hover {
+    width: 164px;
+    height: 228px;
+    left: -32%;
+    color: rgba(39, 76, 105, 1);
+  }
+
+  &.donut-part-7 {
+    transform: rotate(0deg);
+    background-image: url('../../public/images/upcomingEvents.svg');
+    background-size: cover;
+    width: 190px;
+    height: 207px;
+    left: -30%;
+    top: 5%;
+
+    .text1 {
+      font-family: 'Magnolia-Script';
+      font-weight: 400;
+    }
+    .text2 {
+      font-family: 'Montserrat-Regular';
+      font-weight: 700;
+    }
+  }
+
+  &.donut-part-7:hover {
+    width: 195px;
+    height: 212px;
+    left: -30%;
+    color: rgba(39, 76, 105, 1);
+  }
+}

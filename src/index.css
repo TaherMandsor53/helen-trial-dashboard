@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Magnolia-Script';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Magnolia-Script'), url('./assets/fonts/Magnolia_Script.woff') format('woff');
+ }
+
+ 
+@font-face {
+  font-family: 'Montserrat-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Montserrat-Regular'), url('./assets/fonts/Montserrat-Regular.woff') format('woff');
+ }
+
+ @font-face {
+  font-family: 'MrsSheppards-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('MrsSheppards-Regular'), url('./assets/fonts/MrsSheppards-Regular.ttf') format('ttf');
+ }
+
