@@ -15,6 +15,7 @@ export default function Dashboard() {
           title={"<span class='text1'>My</span> <span class='text2'>COURSES</span>"}
           //   description="my course description"
           customClass="donut-part-1"
+          customInnerClass="inner-content-1"
         />
 
         <DonutComponent

@@ -31,6 +31,8 @@
     width: 236.5px;
     height: 147.5px;
     left: -4%;
+    mask-image: url('../../public/images/myCourses_mask.svg');
+    mask-size: cover;
     .text1 {
       font-family: 'Magnolia-Script';
       font-weight: 400;
@@ -41,21 +43,59 @@
     }
   }
 
+  &.donut-part-1::before,
+  &.donut-part-1:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #274c69;
+    mask-image: url('../../public/images/myCourses_mask.svg');
+    mask-size: cover;
+  }
+
+  &.donut-part-1:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../public/images/border-img.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
+  &.donut-part-1:hover::before {
+    background-color: #c1989f;
+  }
+
   &.donut-part-1:hover {
-    width: 245px;
-    height: 152px;
-    left: -5%;
-    color: rgba(39, 76, 105, 1);
+    width: 260px;
+    height: 160px;
+    left: -6%;
+    color: rgb(39, 76, 105);
+    z-index: 999;
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+      z-index: 999;
+      color: #274c69;
+    }
   }
 
   &.donut-part-2 {
     transform: rotate(0deg);
-    background-image: url('../../public/images/usefulResource.svg');
+    background: url('../../public/images/usefulResource.svg');
     background-size: cover;
     width: 195.5px;
     height: 207.5px;
     left: 31%;
     top: 30px;
+    mask-image: url('../../public/images/useful_resource_mask.svg');
+    mask-size: cover;
 
     .text1 {
       font-family: 'Magnolia-Script';
@@ -67,11 +107,48 @@
     }
   }
 
+  &.donut-part-2::before,
+  &.donut-part-2:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #274c69;
+    mask-image: url('../../public/images/useful_resource_mask.svg');
+    mask-size: cover;
+  }
+
+  &.donut-part-2:hover::before {
+    background-color: #c1989f;
+  }
+
+  &.donut-part-2:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../public/images/border-img.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
   &.donut-part-2:hover {
-    width: 200px;
-    height: 212px;
-    left: 30%;
-    color: rgba(39, 76, 105, 1);
+    width: 228px;
+    height: 240px;
+    top: 2%;
+    left: 28%;
+    color: rgb(39, 76, 105);
+    z-index: 999;
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+      z-index: 999;
+      color: #274c69;
+    }
   }
 
   &.donut-part-3 {
@@ -82,6 +159,8 @@
     height: 224.5px;
     left: 40%;
     top: 39%;
+    mask-image: url('../../public/images/coaching_mask.svg');
+    mask-size: cover;
     .text1 {
       font-family: 'Magnolia-Script';
       font-weight: 400;
@@ -92,11 +171,47 @@
     }
   }
 
+  &.donut-part-3::before,
+  &.donut-part-3:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #274c69;
+    mask-image: url('../../public/images/coaching_mask.svg');
+  }
+
+  &.donut-part-3:hover::before {
+    background-color: #c1989f;
+  }
+
   &.donut-part-3:hover {
-    width: 163px;
-    height: 229px;
-    left: 40%;
-    color: rgba(39, 76, 105, 1);
+    width: 175px;
+    height: 250px;
+    left: 38%;
+    top: 36%;
+    color: rgb(39, 76, 105);
+    z-index: 999;
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+      z-index: 999;
+      color: #274c69;
+    }
+  }
+
+  &.donut-part-3:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../public/images/border-img.svg');
+    background-position: top;
+    background-repeat: no-repeat;
   }
 
   &.donut-part-4 {
@@ -107,17 +222,56 @@
     height: 180.18px;
     left: 19.5%;
     top: 66%;
+    mask-image: url('../../public/images/challenge_mask.svg');
+    mask-size: cover;
     h3 {
       font-family: 'Montserrat-Regular';
       font-weight: 700;
     }
   }
 
+  &.donut-part-4::before,
+  &.donut-part-4:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #274c69;
+    mask-image: url('../../public/images/challenge_mask.svg');
+    mask-size: cover;
+  }
+
+  &.donut-part-4:hover::before {
+    background-color: #c1989f;
+  }
+
   &.donut-part-4:hover {
-    width: 210px;
-    height: 185px;
-    left: 19.5%;
-    color: rgba(39, 76, 105, 1);
+    width: 234px;
+    height: 205px;
+    left: 16.5%;
+    top: 63%;
+    color: rgb(39, 76, 105);
+    z-index: 999;
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+      z-index: 999;
+      color: #274c69;
+    }
+  }
+
+  &.donut-part-4:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../public/images/border-img.svg');
+    background-position: top;
+    background-repeat: no-repeat;
   }
 
   &.donut-part-5 {
@@ -128,6 +282,8 @@
     height: 180.04px;
     left: -20%;
     top: 66%;
+    mask-image: url('../../public/images/support_mask.svg');
+    mask-size: cover;
     h3 {
       font-family: 'Montserrat-Regular';
       font-weight: 700;
@@ -135,10 +291,47 @@
   }
 
   &.donut-part-5:hover {
-    width: 211px;
-    height: 185px;
-    left: -20%;
-    color: rgba(39, 76, 105, 1);
+    width: 222px;
+    height: 202px;
+    left: -21%;
+    top: 63%;
+    color: rgb(39, 76, 105);
+    z-index: 999;
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+      z-index: 999;
+      color: #274c69;
+    }
+  }
+
+  &.donut-part-5::before,
+  &.donut-part-5:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #274c69;
+    mask-image: url('../../public/images/support_mask.svg');
+    mask-size: cover;
+  }
+
+  &.donut-part-5:hover::before {
+    background-color: #c1989f;
+  }
+
+  &.donut-part-5:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../public/images/border-img.svg');
+    background-position: top;
+    background-repeat: no-repeat;
   }
 
   &.donut-part-6 {
@@ -149,7 +342,8 @@
     height: 223.5px;
     left: -32%;
     top: 39%;
-
+    mask-image: url('../../public/images/upcoming_workshop_mask.svg');
+    mask-size: cover;
     .text1 {
       font-family: 'Magnolia-Script';
       font-weight: 400;
@@ -160,11 +354,48 @@
     }
   }
 
+  &.donut-part-6::before,
+  &.donut-part-6:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #274c69;
+    mask-image: url('../../public/images/upcoming_workshop_mask.svg');
+    mask-size: cover;
+  }
+
+  &.donut-part-6:hover::before {
+    background-color: #c1989f;
+  }
+
   &.donut-part-6:hover {
-    width: 164px;
-    height: 228px;
+    width: 180px;
+    height: 252px;
     left: -32%;
-    color: rgba(39, 76, 105, 1);
+    top: 36%;
+    color: rgb(39, 76, 105);
+    z-index: 999;
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+      z-index: 999;
+      color: #274c69;
+    }
+  }
+
+  &.donut-part-6:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../public/images/border-img.svg');
+    background-position: top;
+    background-repeat: no-repeat;
   }
 
   &.donut-part-7 {
@@ -175,7 +406,8 @@
     height: 207px;
     left: -30%;
     top: 5%;
-
+    mask-image: url('../../public/images/upcoming_events_mask.svg');
+    mask-size: cover;
     .text1 {
       font-family: 'Magnolia-Script';
       font-weight: 400;
@@ -186,10 +418,66 @@
     }
   }
 
+  &.donut-part-7::before,
+  &.donut-part-7:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #274c69;
+    mask-image: url('../../public/images/upcoming_events_mask.svg');
+    mask-size: cover;
+  }
+
+  &.donut-part-7:hover::before {
+    background-color: #c1989f;
+  }
+
   &.donut-part-7:hover {
-    width: 195px;
-    height: 212px;
-    left: -30%;
-    color: rgba(39, 76, 105, 1);
+    width: 230px;
+    height: 252px;
+    left: -35%;
+    top: 0%;
+    color: rgb(39, 76, 105);
+    z-index: 999;
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+      z-index: 999;
+      color: #274c69;
+    }
+  }
+
+  &.donut-part-7:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../public/images/border-img.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+}
+
+.inner-content {
+  &.inner-content-1,
+  &.inner-content-2,
+  &.inner-content-3,
+  &.inner-content-4,
+  &.inner-content-5,
+  &.inner-content-6,
+  &.inner-content-7,
+  &.inner-content-1:hover,
+  &.inner-content-2:hover,
+  &.inner-content-3:hover,
+  &.inner-content-4:hover,
+  &.inner-content-5:hover,
+  &.inner-content-6:hover,
+  &.inner-content-7:hover {
+    z-index: 999;
   }
 }

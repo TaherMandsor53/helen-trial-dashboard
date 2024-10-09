@@ -19,14 +19,15 @@
     font-family: 'Magnolia-Script';
   }
   button {
-    background-color: #2a3b54;
-    color: white;
-    border: none;
+    background-color: #274c69;
+    color: #ffffff;
+    border: 1px solid #274c69;
     padding: 5px 10px;
     border-radius: 45px;
     cursor: pointer;
     margin-top: 10px;
     width: 60px;
     height: 30px;
+    z-index: 9999;
   }
 }
